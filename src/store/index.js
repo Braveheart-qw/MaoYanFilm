@@ -5,10 +5,21 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+      filmDataList: null,
+      contentHeight: "0px",
   },
   mutations: {
+      saveFilmDataList(state , data){
+        state.filmDataList = data;
+      },
+      setContentHeight(state , data){
+          state.contentHeight = data;
+      }
   },
   actions: {
+      saveFilm(state , data){
+        state.commit("saveFilmDataList" , data);
+      }
   },
   modules: {
   }
