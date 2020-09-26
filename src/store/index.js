@@ -7,6 +7,7 @@ export default new Vuex.Store({
   state: {
       filmDataList: null,
       contentHeight: "0px",
+      currentNavBar: "猫眼电影",
   },
   mutations: {
       saveFilmDataList(state , data){
