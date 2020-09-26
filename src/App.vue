@@ -71,18 +71,17 @@
         /*导航栏样式*/
         .navbar{
             height: 50px;
-            border: 1px solid;
         }
 
         /*内容区域样式*/
         .content{
-            border: 1px solid;
+
         }
 
         /*选项卡样式*/
         .tabbar{
             height: 50px;
-            border: 1px solid;
+
             position: fixed;
             bottom: 0;
             left: 0;
