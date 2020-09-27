@@ -2,6 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import film from "../views/film"
 import hotShowing from "../views/film/hotShowing";
+import cinema from "../views/cinema";
+import shopDetail from "../views/shopDetail";
+import shopTicket from "../views/shopTicket";
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,10 +17,22 @@ const routes = [
         component: hotShowing,
       },
       {
+        path: "cinema",
+        component: cinema
+      },
+      {
         path:"",
         redirect:"hotShowing"
       }
     ]
+  },
+  {
+        path:"/shopDetail/:id",
+        component:shopDetail
+  },
+  {
+        path:"/shopTicket/:movieID/:cinemaID",
+        component:shopTicket
   },
   {
     path:"",
