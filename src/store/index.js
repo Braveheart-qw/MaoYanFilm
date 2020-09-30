@@ -21,6 +21,7 @@ export default new Vuex.Store({
         state.commit("saveFilmDataList" , data);
       }
   },
+    
   modules: {
   }
 })
