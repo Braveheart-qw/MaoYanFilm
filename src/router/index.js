@@ -38,6 +38,7 @@ const routes = [
     path:"",
     redirect: "/film"
   }
+
 ]
 const router = new VueRouter({
   mode: 'history',
