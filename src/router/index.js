@@ -35,7 +35,6 @@ const routes = [
         component:shopTicket
   },
   {
-    
     path:"",
     redirect: "/film"
   }
