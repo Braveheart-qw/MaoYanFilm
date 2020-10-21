@@ -25,7 +25,6 @@ const routes = [
         redirect:"hotShowing"
       }
     ]
-
   },
   {
         path:"/shopDetail/:id",
