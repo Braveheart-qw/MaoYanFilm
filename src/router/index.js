@@ -24,6 +24,7 @@ const routes = [
         path:"",
         redirect:"hotShowing"
       }
+      
     ]
   },
   {
