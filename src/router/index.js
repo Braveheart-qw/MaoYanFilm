@@ -31,7 +31,6 @@ const routes = [
         component:shopDetail
   },
 
-
   {
         path:"/shopTicket/:movieID/:cinemaID",
         component:shopTicket
