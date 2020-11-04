@@ -26,7 +26,7 @@ const routes = [
       }
     ]
   },
-    
+
   {
         path:"/shopDetail/:id",
         component:shopDetail
