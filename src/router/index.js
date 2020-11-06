@@ -22,7 +22,6 @@ const routes = [
         component: cinema
       },
 
-
       {
         path:"",
         redirect:"hotShowing"
