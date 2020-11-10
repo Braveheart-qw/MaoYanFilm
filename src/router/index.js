@@ -18,6 +18,7 @@ const routes = [
         component: hotShowing,
       },
 
+
       {
         path: "cinema",
         component: cinema
