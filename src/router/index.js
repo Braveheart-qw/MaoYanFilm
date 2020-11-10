@@ -17,7 +17,6 @@ const routes = [
         path: "hotShowing",
         component: hotShowing,
       },
-
       {
         path: "cinema",
         component: cinema
