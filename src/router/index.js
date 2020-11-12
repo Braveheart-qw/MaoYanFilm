@@ -10,7 +10,6 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: "/film",
-
     component: film,
     children:[
       {
