@@ -20,6 +20,7 @@ const routes = [
         path: "cinema",
         component: cinema
       },
+        
       {
         path:"",
         redirect:"hotShowing"
